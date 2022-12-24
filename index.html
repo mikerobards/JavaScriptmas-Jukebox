@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>🎄 Christmas Jukebox</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link href="index.css" rel="stylesheet" type="text/css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <h1>🎄 Christmas Jukebox</h1>
+      <iframe
+        id="player"
+        type="text/html"
+        width="480"
+        height="240"
+        src="https://www.youtube.com/embed/j3fSknbR7Y4?autoplay=1"
+        frameborder="0"
+        title="Christmas videos"
+      ></iframe>
+
+      <div class="songs">
+        <button onclick="playSong('j3fSknbR7Y4')">
+          Do They Know Its Christmas
+        </button>
+        <button onclick="playSong('yXQViqx6GMY')">
+          All I Want For Christmas Is You
+        </button>
+        <button onclick="playSong('E8gmARGvPlI')">Last Christmas</button>
+        <button onclick="playSong('VkGD-FpYoLA')">
+          My Only Wish (This Year)
+        </button>
+        <button onclick="playSong('wKj92352UAE')">
+          Merry Christmas, Happy Holidays
+        </button>
+      </div>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
